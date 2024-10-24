@@ -262,7 +262,7 @@ class WordCloudBlock(  # pylint: disable=abstract-method
             'num_inputs': self.num_inputs,
             'submitted': self.submitted,
         }))
-        add_css_to_fragment(fragment, 'WordCloudBlockDisplay.scss')
+        add_css_to_fragment(fragment, 'WordCloudBlockDisplay.css')
         add_webpack_js_to_fragment(fragment, 'WordCloudBlockDisplay')
         shim_xmodule_js(fragment, 'WordCloud')
 
